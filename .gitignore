@@ -1,0 +1,5 @@
+analytics/
+.env
+__pycache__/
+backup/
+data/
