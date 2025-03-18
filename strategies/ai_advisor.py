@@ -7,7 +7,7 @@ import re
 
 # Add the parent directory to the path to import modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from RL_Agent.RL_agent import RLAgent
+from rl_system.RL_agent import RLAgent
 
 # Import the AI clients
 from ai_services.openrouter_client import OpenRouterClient, DeepSeekClient
