@@ -1,15 +1,6 @@
 # 🎲📈 DiceTrader v2
 
-A modern web implementation of the DiceTrader financial simulator with FastAPI backend and React frontend.
-
-## Key Features
-
-- **Modern Web Architecture**: FastAPI backend + React/Material-UI frontend
-- **Dynamic Market Simulation**: Market trends affect dice probabilities
-- **AI Strategy Advisor**: Real-time betting recommendations
-- **Multiple Betting Strategies**: Martingale, Kelly, Fibonacci and more
-- **Interactive Dice Animations**: Visual representation of dice rolls
-- **Responsive Design**: Desktop and mobile compatibility
+A web implementation of the DiceTrader financial simulator with FastAPI backend and React frontend.
 
 ## Technical Stack
 
@@ -21,7 +12,6 @@ A modern web implementation of the DiceTrader financial simulator with FastAPI b
 
 ### Frontend
 - React with Material-UI components
-- Interactive components
 - Responsive layout
 - Real-time API communication
 
@@ -36,23 +26,23 @@ This creates a more realistic trading simulation where market conditions influen
 
 ## Quick Start
 
-### Docker Deployment
+### Docker Deployment (recommended)
 
 ```bash
 # Clone repository
-git clone https://github.com/YourUsername/dicetrader.git
-cd dicetrader/v2
+git clone https://github.com/FaustoS88/dicetrader-.git
+cd dicetrader-/v2
 
 # Configure API keys (optional)
 cp .env.example .env
 # Edit .env with your API keys
 
 # Start the application
-docker-compose up
+docker-compose up --build
 ```
 
 Access:
-- Frontend: http://localhost:3003
+- Frontend: http://localhost:3000
 - API docs: http://localhost:8000/docs
 
 ### Local Development

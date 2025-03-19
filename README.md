@@ -62,7 +62,6 @@ The DiceTrader is a Python-based game where players bet on the outcome of rollin
 - Powered by Gemini 2.0 via OpenRouter API
 
 ### 💼 Portfolio Management
-- Multiple simultaneous bets
 - Risk analysis and expected returns
 - Portfolio diversification
 
