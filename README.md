@@ -4,6 +4,16 @@ Welcome to the DiceTrader, a Python game that combines dice rolling, betting, an
 
 ---
 
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/FaustoS88/Dicetrader-/main/assets/Image1.png" alt="Game Interface" width="400"></td>
+    <td><img src="https://raw.githubusercontent.com/FaustoS88/Dicetrader-/main/assets/Image2.png" alt="Portfolio Management" width="400"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="https://raw.githubusercontent.com/FaustoS88/Dicetrader-/main/assets/Image3.png" alt="Analytics Dashboard" width="800"></td>
+  </tr>
+</table>
+
 ## 📚 Table of Contents
 - [Overview](#-overview)
 - [Key Features](#-key-features)
