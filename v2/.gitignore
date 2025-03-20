@@ -1,11 +1,9 @@
 # Python
 analytics/
-.env
 __pycache__/
 backup/
 data/
 venv/
-**/venv/
 **/__pycache__/
 
 # Node.js
@@ -18,10 +16,7 @@ node_modules/
 .env.development
 .env.test
 .env.production
-.env.example
 
-# Docker
-.dockerignore
 
 # IDE files
 .vscode/
