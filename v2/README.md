@@ -2,6 +2,14 @@
 
 A web implementation of the DiceTrader financial simulator with FastAPI backend and React frontend.
 
+---
+
+<table>
+  <tr>
+    <td colspan="2" align="center"><img src="https://raw.githubusercontent.com/FaustoS88/Dicetrader-/main/v2/assets/Image1.png" alt="Analytics Dashboard" width="800"></td>
+  </tr>
+</table>
+
 ## Technical Stack
 
 ### Backend
