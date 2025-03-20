@@ -1,4 +1,5 @@
-analytics/
+/analytics/
+!v2/frontend/src/components/analytics/
 .env
 __pycache__/
 backup/

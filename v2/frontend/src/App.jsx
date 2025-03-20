@@ -24,6 +24,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import BetForm from './components/BetForm';
 import GameStatus from './components/GameStatus';
 import StrategyPicker from './components/StrategyPicker';
+import AnalyticsDashboard from './components/AnalyticsDashboard';
 import { initializeGame } from './api';
 
 const theme = createTheme({
@@ -156,6 +157,7 @@ function App() {
               <Tabs value={activeTab} onChange={handleTabChange} aria-label="game tabs">
                 <Tab label="Place Bet" />
                 <Tab label="Strategy" />
+                <Tab label="Analytics" />
               </Tabs>
             </Box>
             
@@ -173,6 +175,10 @@ function App() {
                 onStrategyChange={handleStrategyChange} 
                 onError={handleError} 
               />
+            )}
+            
+            {activeTab === 2 && (
+              <AnalyticsDashboard />
             )}
           </>
         ) : (
